@@ -7,7 +7,7 @@ from mahasiswa import Mahasiswa
 # Muhammad Iqbal Zain
 # 1901423
 # Ilkom C2
-# Nampilin namanya belom bener
+# Nampilin gambar belom bener
 
 data = []
 filename = "-"
@@ -114,7 +114,7 @@ def isiData():
         elif res == 'no':
             messagebox.showinfo('Response', 'Bye')
     but = Frame(root)
-    button = Button(but, text="Click Me!", command=save,width=29)
+    button = Button(but, text="Save!", command=save,width=29)
     button.pack(side=LEFT, anchor=W, expand=YES)
     button = Button(but, text="Quit", command=cabut, fg="red", bg="#000000",width=17)
     button.pack(side=LEFT, anchor=W, expand=YES)
